@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80CA7CEB22673184002EEE51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CA7CEA22673184002EEE51 /* AppDelegate.swift */; };
+		80CA7CED22673184002EEE51 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CA7CEC22673184002EEE51 /* ViewController.swift */; };
+		80CA7CF022673184002EEE51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80CA7CEE22673184002EEE51 /* Main.storyboard */; };
+		80CA7CF222673186002EEE51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80CA7CF122673186002EEE51 /* Assets.xcassets */; };
+		80CA7CF522673186002EEE51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80CA7CF322673186002EEE51 /* LaunchScreen.storyboard */; };
+		80CA7D0022673186002EEE51 /* KkyuTalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CA7CFF22673186002EEE51 /* KkyuTalkTests.swift */; };
+		80CA7D0B22673186002EEE51 /* KkyuTalkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CA7D0A22673186002EEE51 /* KkyuTalkUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80CA7CFC22673186002EEE51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80CA7CDF22673184002EEE51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80CA7CE622673184002EEE51;
+			remoteInfo = KkyuTalk;
+		};
+		80CA7D0722673186002EEE51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80CA7CDF22673184002EEE51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80CA7CE622673184002EEE51;
+			remoteInfo = KkyuTalk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		80CA7CE722673184002EEE51 /* KkyuTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KkyuTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80CA7CEA22673184002EEE51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		80CA7CEC22673184002EEE51 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		80CA7CEF22673184002EEE51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80CA7CF122673186002EEE51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80CA7CF422673186002EEE51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		80CA7CF622673186002EEE51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80CA7CFB22673186002EEE51 /* KkyuTalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KkyuTalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80CA7CFF22673186002EEE51 /* KkyuTalkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KkyuTalkTests.swift; sourceTree = "<group>"; };
+		80CA7D0122673186002EEE51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80CA7D0622673186002EEE51 /* KkyuTalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KkyuTalkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80CA7D0A22673186002EEE51 /* KkyuTalkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KkyuTalkUITests.swift; sourceTree = "<group>"; };
+		80CA7D0C22673186002EEE51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80CA7CE422673184002EEE51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80CA7CF822673186002EEE51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80CA7D0322673186002EEE51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80CA7CDE22673184002EEE51 = {
+			isa = PBXGroup;
+			children = (
+				80CA7CE922673184002EEE51 /* KkyuTalk */,
+				80CA7CFE22673186002EEE51 /* KkyuTalkTests */,
+				80CA7D0922673186002EEE51 /* KkyuTalkUITests */,
+				80CA7CE822673184002EEE51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80CA7CE822673184002EEE51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80CA7CE722673184002EEE51 /* KkyuTalk.app */,
+				80CA7CFB22673186002EEE51 /* KkyuTalkTests.xctest */,
+				80CA7D0622673186002EEE51 /* KkyuTalkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80CA7CE922673184002EEE51 /* KkyuTalk */ = {
+			isa = PBXGroup;
+			children = (
+				80CA7CEA22673184002EEE51 /* AppDelegate.swift */,
+				80CA7CEC22673184002EEE51 /* ViewController.swift */,
+				80CA7CEE22673184002EEE51 /* Main.storyboard */,
+				80CA7CF122673186002EEE51 /* Assets.xcassets */,
+				80CA7CF322673186002EEE51 /* LaunchScreen.storyboard */,
+				80CA7CF622673186002EEE51 /* Info.plist */,
+			);
+			path = KkyuTalk;
+			sourceTree = "<group>";
+		};
+		80CA7CFE22673186002EEE51 /* KkyuTalkTests */ = {
+			isa = PBXGroup;
+			children = (
+				80CA7CFF22673186002EEE51 /* KkyuTalkTests.swift */,
+				80CA7D0122673186002EEE51 /* Info.plist */,
+			);
+			path = KkyuTalkTests;
+			sourceTree = "<group>";
+		};
+		80CA7D0922673186002EEE51 /* KkyuTalkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				80CA7D0A22673186002EEE51 /* KkyuTalkUITests.swift */,
+				80CA7D0C22673186002EEE51 /* Info.plist */,
+			);
+			path = KkyuTalkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80CA7CE622673184002EEE51 /* KkyuTalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80CA7D0F22673186002EEE51 /* Build configuration list for PBXNativeTarget "KkyuTalk" */;
+			buildPhases = (
+				80CA7CE322673184002EEE51 /* Sources */,
+				80CA7CE422673184002EEE51 /* Frameworks */,
+				80CA7CE522673184002EEE51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KkyuTalk;
+			productName = KkyuTalk;
+			productReference = 80CA7CE722673184002EEE51 /* KkyuTalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80CA7CFA22673186002EEE51 /* KkyuTalkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80CA7D1222673186002EEE51 /* Build configuration list for PBXNativeTarget "KkyuTalkTests" */;
+			buildPhases = (
+				80CA7CF722673186002EEE51 /* Sources */,
+				80CA7CF822673186002EEE51 /* Frameworks */,
+				80CA7CF922673186002EEE51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80CA7CFD22673186002EEE51 /* PBXTargetDependency */,
+			);
+			name = KkyuTalkTests;
+			productName = KkyuTalkTests;
+			productReference = 80CA7CFB22673186002EEE51 /* KkyuTalkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		80CA7D0522673186002EEE51 /* KkyuTalkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80CA7D1522673186002EEE51 /* Build configuration list for PBXNativeTarget "KkyuTalkUITests" */;
+			buildPhases = (
+				80CA7D0222673186002EEE51 /* Sources */,
+				80CA7D0322673186002EEE51 /* Frameworks */,
+				80CA7D0422673186002EEE51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80CA7D0822673186002EEE51 /* PBXTargetDependency */,
+			);
+			name = KkyuTalkUITests;
+			productName = KkyuTalkUITests;
+			productReference = 80CA7D0622673186002EEE51 /* KkyuTalkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80CA7CDF22673184002EEE51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = ksbae1214;
+				TargetAttributes = {
+					80CA7CE622673184002EEE51 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					80CA7CFA22673186002EEE51 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 80CA7CE622673184002EEE51;
+					};
+					80CA7D0522673186002EEE51 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 80CA7CE622673184002EEE51;
+					};
+				};
+			};
+			buildConfigurationList = 80CA7CE222673184002EEE51 /* Build configuration list for PBXProject "KkyuTalk" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80CA7CDE22673184002EEE51;
+			productRefGroup = 80CA7CE822673184002EEE51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80CA7CE622673184002EEE51 /* KkyuTalk */,
+				80CA7CFA22673186002EEE51 /* KkyuTalkTests */,
+				80CA7D0522673186002EEE51 /* KkyuTalkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80CA7CE522673184002EEE51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80CA7CF522673186002EEE51 /* LaunchScreen.storyboard in Resources */,
+				80CA7CF222673186002EEE51 /* Assets.xcassets in Resources */,
+				80CA7CF022673184002EEE51 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80CA7CF922673186002EEE51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80CA7D0422673186002EEE51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80CA7CE322673184002EEE51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80CA7CED22673184002EEE51 /* ViewController.swift in Sources */,
+				80CA7CEB22673184002EEE51 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80CA7CF722673186002EEE51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80CA7D0022673186002EEE51 /* KkyuTalkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80CA7D0222673186002EEE51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80CA7D0B22673186002EEE51 /* KkyuTalkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80CA7CFD22673186002EEE51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80CA7CE622673184002EEE51 /* KkyuTalk */;
+			targetProxy = 80CA7CFC22673186002EEE51 /* PBXContainerItemProxy */;
+		};
+		80CA7D0822673186002EEE51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80CA7CE622673184002EEE51 /* KkyuTalk */;
+			targetProxy = 80CA7D0722673186002EEE51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		80CA7CEE22673184002EEE51 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80CA7CEF22673184002EEE51 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80CA7CF322673186002EEE51 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80CA7CF422673186002EEE51 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80CA7D0D22673186002EEE51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		80CA7D0E22673186002EEE51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80CA7D1022673186002EEE51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KkyuTalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kyusik.KkyuTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80CA7D1122673186002EEE51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KkyuTalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kyusik.KkyuTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		80CA7D1322673186002EEE51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KkyuTalkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kyusik.KkyuTalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KkyuTalk.app/KkyuTalk";
+			};
+			name = Debug;
+		};
+		80CA7D1422673186002EEE51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KkyuTalkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kyusik.KkyuTalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KkyuTalk.app/KkyuTalk";
+			};
+			name = Release;
+		};
+		80CA7D1622673186002EEE51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KkyuTalkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kyusik.KkyuTalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KkyuTalk;
+			};
+			name = Debug;
+		};
+		80CA7D1722673186002EEE51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KkyuTalkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kyusik.KkyuTalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KkyuTalk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80CA7CE222673184002EEE51 /* Build configuration list for PBXProject "KkyuTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80CA7D0D22673186002EEE51 /* Debug */,
+				80CA7D0E22673186002EEE51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80CA7D0F22673186002EEE51 /* Build configuration list for PBXNativeTarget "KkyuTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80CA7D1022673186002EEE51 /* Debug */,
+				80CA7D1122673186002EEE51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80CA7D1222673186002EEE51 /* Build configuration list for PBXNativeTarget "KkyuTalkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80CA7D1322673186002EEE51 /* Debug */,
+				80CA7D1422673186002EEE51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80CA7D1522673186002EEE51 /* Build configuration list for PBXNativeTarget "KkyuTalkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80CA7D1622673186002EEE51 /* Debug */,
+				80CA7D1722673186002EEE51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80CA7CDF22673184002EEE51 /* Project object */;
+}
