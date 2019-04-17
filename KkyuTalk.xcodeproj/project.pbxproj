@@ -14,6 +14,10 @@
 		80CA7CF522673186002EEE51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80CA7CF322673186002EEE51 /* LaunchScreen.storyboard */; };
 		80CA7D0022673186002EEE51 /* KkyuTalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CA7CFF22673186002EEE51 /* KkyuTalkTests.swift */; };
 		80CA7D0B22673186002EEE51 /* KkyuTalkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CA7D0A22673186002EEE51 /* KkyuTalkUITests.swift */; };
+		80CA7D1922673698002EEE51 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CA7D1822673698002EEE51 /* SignUpViewController.swift */; };
+		80CA7D1B226736AE002EEE51 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CA7D1A226736AE002EEE51 /* SignInViewController.swift */; };
+		80CA7D1D2267656E002EEE51 /* CustomAccesoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80CA7D1C2267656E002EEE51 /* CustomAccesoryView.xib */; };
+		80CA7D1F22676656002EEE51 /* CustomAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CA7D1E22676656002EEE51 /* CustomAccessoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		80CA7D0622673186002EEE51 /* KkyuTalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KkyuTalkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80CA7D0A22673186002EEE51 /* KkyuTalkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KkyuTalkUITests.swift; sourceTree = "<group>"; };
 		80CA7D0C22673186002EEE51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80CA7D1822673698002EEE51 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		80CA7D1A226736AE002EEE51 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		80CA7D1C2267656E002EEE51 /* CustomAccesoryView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomAccesoryView.xib; sourceTree = "<group>"; };
+		80CA7D1E22676656002EEE51 /* CustomAccessoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAccessoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,10 @@
 			children = (
 				80CA7CEA22673184002EEE51 /* AppDelegate.swift */,
 				80CA7CEC22673184002EEE51 /* ViewController.swift */,
+				80CA7D1A226736AE002EEE51 /* SignInViewController.swift */,
+				80CA7D1C2267656E002EEE51 /* CustomAccesoryView.xib */,
+				80CA7D1E22676656002EEE51 /* CustomAccessoryView.swift */,
+				80CA7D1822673698002EEE51 /* SignUpViewController.swift */,
 				80CA7CEE22673184002EEE51 /* Main.storyboard */,
 				80CA7CF122673186002EEE51 /* Assets.xcassets */,
 				80CA7CF322673186002EEE51 /* LaunchScreen.storyboard */,
@@ -231,6 +243,7 @@
 			files = (
 				80CA7CF522673186002EEE51 /* LaunchScreen.storyboard in Resources */,
 				80CA7CF222673186002EEE51 /* Assets.xcassets in Resources */,
+				80CA7D1D2267656E002EEE51 /* CustomAccesoryView.xib in Resources */,
 				80CA7CF022673184002EEE51 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,6 +269,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80CA7D1B226736AE002EEE51 /* SignInViewController.swift in Sources */,
+				80CA7D1922673698002EEE51 /* SignUpViewController.swift in Sources */,
+				80CA7D1F22676656002EEE51 /* CustomAccessoryView.swift in Sources */,
 				80CA7CED22673184002EEE51 /* ViewController.swift in Sources */,
 				80CA7CEB22673184002EEE51 /* AppDelegate.swift in Sources */,
 			);
