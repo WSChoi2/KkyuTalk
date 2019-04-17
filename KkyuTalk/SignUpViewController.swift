@@ -124,8 +124,7 @@ class SignUpViewController: UIViewController, UITextFieldDelegate, UIPickerViewD
         aa.birth = userBirth
         aa.sex = userSex
         aa.password = userPassword
-        
-        print(aa.id!, aa.name!, aa.birth!)
+    
     }
    
     /*
