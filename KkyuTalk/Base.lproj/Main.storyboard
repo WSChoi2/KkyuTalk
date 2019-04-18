@@ -133,7 +133,7 @@
                                     <constraint firstAttribute="height" constant="45" id="6lU-bU-a9P"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                 <connections>
                                     <outlet property="delegate" destination="jgh-HG-jhk" id="Iyl-q0-7Uu"/>
                                 </connections>

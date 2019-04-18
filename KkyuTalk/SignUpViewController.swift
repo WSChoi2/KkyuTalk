@@ -72,6 +72,12 @@ class SignUpViewController: UIViewController, UITextFieldDelegate, UIPickerViewD
         
         return true
     }
+    //화면 탭하면 키보드 내리기 함수
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?){
+        
+        self.view.endEditing(true)
+        
+    }
     
     
     //피커뷰 함수
