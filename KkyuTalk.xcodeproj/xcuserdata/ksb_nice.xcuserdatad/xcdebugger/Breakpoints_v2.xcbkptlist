@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KkyuTalk/SignUpViewController.swift"
+            timestampString = "578847869.001129"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KkyuTalk.SignUpViewController.pickerSex.getter : Swift.Optional&lt;__C.UIPickerView&gt;"
+                  moduleName = "KkyuTalk"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ksb_nice/Desktop/KkyuTalk/KkyuTalk/SignUpViewController.swift"
+                  timestampString = "578841953.249139"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "114">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KkyuTalk.SignUpViewController.pickerSex.setter : Swift.Optional&lt;__C.UIPickerView&gt;"
+                  moduleName = "KkyuTalk"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ksb_nice/Desktop/KkyuTalk/KkyuTalk/SignUpViewController.swift"
+                  timestampString = "578841953.251653"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KkyuTalk.SignUpViewController.pickerSex.modify : Swift.Optional&lt;__C.UIPickerView&gt;"
+                  moduleName = "KkyuTalk"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ksb_nice/Desktop/KkyuTalk/KkyuTalk/SignUpViewController.swift"
+                  timestampString = "578841953.254354"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KkyuTalk.SignUpViewController.pickerSex.modify : Swift.Optional&lt;__C.UIPickerView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "KkyuTalk"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ksb_nice/Desktop/KkyuTalk/KkyuTalk/SignUpViewController.swift"
+                  timestampString = "578841953.274381"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KkyuTalk.SignUpViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; KkyuTalk.SignUpViewController"
+                  moduleName = "KkyuTalk"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ksb_nice/Desktop/KkyuTalk/KkyuTalk/SignUpViewController.swift"
+                  timestampString = "578841953.278041"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "217">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KkyuTalk.SignUpViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;KkyuTalk.SignUpViewController&gt;"
+                  moduleName = "KkyuTalk"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ksb_nice/Desktop/KkyuTalk/KkyuTalk/SignUpViewController.swift"
+                  timestampString = "578841953.282361"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "137">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

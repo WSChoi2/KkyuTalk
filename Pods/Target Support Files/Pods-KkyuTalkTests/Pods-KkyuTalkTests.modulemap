@@ -1,0 +1,6 @@
+framework module Pods_KkyuTalkTests {
+  umbrella header "Pods-KkyuTalkTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

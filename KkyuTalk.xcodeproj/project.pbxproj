@@ -18,6 +18,12 @@
 		80CA7D1B226736AE002EEE51 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CA7D1A226736AE002EEE51 /* SignInViewController.swift */; };
 		80CA7D1D2267656E002EEE51 /* CustomAccesoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80CA7D1C2267656E002EEE51 /* CustomAccesoryView.xib */; };
 		80CA7D1F22676656002EEE51 /* CustomAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CA7D1E22676656002EEE51 /* CustomAccessoryView.swift */; };
+		9FFF6AEAC1C87E4C681C5828 /* Pods_KkyuTalkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE6B3ECDF33BEF42B06E821D /* Pods_KkyuTalkTests.framework */; };
+		A3781CEF22806784004C1FCE /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3781CEE22806784004C1FCE /* UserInfo.swift */; };
+		A3781CF122806E53004C1FCE /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3781CF022806E53004C1FCE /* UserInfoViewController.swift */; };
+		A3781CF32280720B004C1FCE /* UserInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3781CF22280720B004C1FCE /* UserInfoTableViewCell.swift */; };
+		A759593E4E48EDB80BD3F0FA /* Pods_KkyuTalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D49188A294F53A8B74D59D /* Pods_KkyuTalk.framework */; };
+		CD224EB8B8355BBD0D96106A /* Pods_KkyuTalkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8BAF3CA882A77AB9CF494F5 /* Pods_KkyuTalkUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0DB5A5EEF295195FB02BE217 /* Pods-KkyuTalkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KkyuTalkUITests.release.xcconfig"; path = "Target Support Files/Pods-KkyuTalkUITests/Pods-KkyuTalkUITests.release.xcconfig"; sourceTree = "<group>"; };
+		24EE6BC02EC764E05EB10A46 /* Pods-KkyuTalkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KkyuTalkTests.release.xcconfig"; path = "Target Support Files/Pods-KkyuTalkTests/Pods-KkyuTalkTests.release.xcconfig"; sourceTree = "<group>"; };
+		75D49188A294F53A8B74D59D /* Pods_KkyuTalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KkyuTalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		80CA7CE722673184002EEE51 /* KkyuTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KkyuTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80CA7CEA22673184002EEE51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80CA7CEC22673184002EEE51 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +64,15 @@
 		80CA7D1A226736AE002EEE51 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		80CA7D1C2267656E002EEE51 /* CustomAccesoryView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomAccesoryView.xib; sourceTree = "<group>"; };
 		80CA7D1E22676656002EEE51 /* CustomAccessoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAccessoryView.swift; sourceTree = "<group>"; };
+		9001A9B70E4CCF054ECC8AA8 /* Pods-KkyuTalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KkyuTalk.release.xcconfig"; path = "Target Support Files/Pods-KkyuTalk/Pods-KkyuTalk.release.xcconfig"; sourceTree = "<group>"; };
+		A2583677A48B358B57785F6A /* Pods-KkyuTalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KkyuTalk.debug.xcconfig"; path = "Target Support Files/Pods-KkyuTalk/Pods-KkyuTalk.debug.xcconfig"; sourceTree = "<group>"; };
+		A3781CEE22806784004C1FCE /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		A3781CF022806E53004C1FCE /* UserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
+		A3781CF22280720B004C1FCE /* UserInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoTableViewCell.swift; sourceTree = "<group>"; };
+		AE6B3ECDF33BEF42B06E821D /* Pods_KkyuTalkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KkyuTalkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C80F399C4A7D0D4A887A1AAE /* Pods-KkyuTalkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KkyuTalkTests.debug.xcconfig"; path = "Target Support Files/Pods-KkyuTalkTests/Pods-KkyuTalkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E0BE1626208FD7A62962F100 /* Pods-KkyuTalkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KkyuTalkUITests.debug.xcconfig"; path = "Target Support Files/Pods-KkyuTalkUITests/Pods-KkyuTalkUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E8BAF3CA882A77AB9CF494F5 /* Pods_KkyuTalkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KkyuTalkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A759593E4E48EDB80BD3F0FA /* Pods_KkyuTalk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FFF6AEAC1C87E4C681C5828 /* Pods_KkyuTalkTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,12 +96,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD224EB8B8355BBD0D96106A /* Pods_KkyuTalkUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C4201E54662CAADAC770E20 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2583677A48B358B57785F6A /* Pods-KkyuTalk.debug.xcconfig */,
+				9001A9B70E4CCF054ECC8AA8 /* Pods-KkyuTalk.release.xcconfig */,
+				C80F399C4A7D0D4A887A1AAE /* Pods-KkyuTalkTests.debug.xcconfig */,
+				24EE6BC02EC764E05EB10A46 /* Pods-KkyuTalkTests.release.xcconfig */,
+				E0BE1626208FD7A62962F100 /* Pods-KkyuTalkUITests.debug.xcconfig */,
+				0DB5A5EEF295195FB02BE217 /* Pods-KkyuTalkUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		80CA7CDE22673184002EEE51 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +123,8 @@
 				80CA7CFE22673186002EEE51 /* KkyuTalkTests */,
 				80CA7D0922673186002EEE51 /* KkyuTalkUITests */,
 				80CA7CE822673184002EEE51 /* Products */,
+				2C4201E54662CAADAC770E20 /* Pods */,
+				B7617B7D7856F013D2DF5AF6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,6 +147,9 @@
 				80CA7D1C2267656E002EEE51 /* CustomAccesoryView.xib */,
 				80CA7D1E22676656002EEE51 /* CustomAccessoryView.swift */,
 				80CA7D1822673698002EEE51 /* SignUpViewController.swift */,
+				A3781CEE22806784004C1FCE /* UserInfo.swift */,
+				A3781CF022806E53004C1FCE /* UserInfoViewController.swift */,
+				A3781CF22280720B004C1FCE /* UserInfoTableViewCell.swift */,
 				80CA7CEE22673184002EEE51 /* Main.storyboard */,
 				80CA7CF122673186002EEE51 /* Assets.xcassets */,
 				80CA7CF322673186002EEE51 /* LaunchScreen.storyboard */,
@@ -137,6 +176,16 @@
 			path = KkyuTalkUITests;
 			sourceTree = "<group>";
 		};
+		B7617B7D7856F013D2DF5AF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75D49188A294F53A8B74D59D /* Pods_KkyuTalk.framework */,
+				AE6B3ECDF33BEF42B06E821D /* Pods_KkyuTalkTests.framework */,
+				E8BAF3CA882A77AB9CF494F5 /* Pods_KkyuTalkUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +193,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80CA7D0F22673186002EEE51 /* Build configuration list for PBXNativeTarget "KkyuTalk" */;
 			buildPhases = (
+				00A73900CCCD96FBFA8C3D9D /* [CP] Check Pods Manifest.lock */,
 				80CA7CE322673184002EEE51 /* Sources */,
 				80CA7CE422673184002EEE51 /* Frameworks */,
 				80CA7CE522673184002EEE51 /* Resources */,
+				9EF6CD78D812BD281C1208FD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -161,6 +212,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80CA7D1222673186002EEE51 /* Build configuration list for PBXNativeTarget "KkyuTalkTests" */;
 			buildPhases = (
+				8956D3F219F6C1E5E666CF75 /* [CP] Check Pods Manifest.lock */,
 				80CA7CF722673186002EEE51 /* Sources */,
 				80CA7CF822673186002EEE51 /* Frameworks */,
 				80CA7CF922673186002EEE51 /* Resources */,
@@ -179,6 +231,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80CA7D1522673186002EEE51 /* Build configuration list for PBXNativeTarget "KkyuTalkUITests" */;
 			buildPhases = (
+				FEC18E4790FD4FCD7FDB21C5 /* [CP] Check Pods Manifest.lock */,
 				80CA7D0222673186002EEE51 /* Sources */,
 				80CA7D0322673186002EEE51 /* Frameworks */,
 				80CA7D0422673186002EEE51 /* Resources */,
@@ -264,15 +317,111 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		00A73900CCCD96FBFA8C3D9D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KkyuTalk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8956D3F219F6C1E5E666CF75 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KkyuTalkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EF6CD78D812BD281C1208FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KkyuTalk/Pods-KkyuTalk-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KkyuTalk/Pods-KkyuTalk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEC18E4790FD4FCD7FDB21C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KkyuTalkUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		80CA7CE322673184002EEE51 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				80CA7D1B226736AE002EEE51 /* SignInViewController.swift in Sources */,
+				A3781CF122806E53004C1FCE /* UserInfoViewController.swift in Sources */,
 				80CA7D1922673698002EEE51 /* SignUpViewController.swift in Sources */,
 				80CA7D1F22676656002EEE51 /* CustomAccessoryView.swift in Sources */,
+				A3781CF32280720B004C1FCE /* UserInfoTableViewCell.swift in Sources */,
 				80CA7CED22673184002EEE51 /* ViewController.swift in Sources */,
+				A3781CEF22806784004C1FCE /* UserInfo.swift in Sources */,
 				80CA7CEB22673184002EEE51 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -446,6 +595,7 @@
 		};
 		80CA7D1022673186002EEE51 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2583677A48B358B57785F6A /* Pods-KkyuTalk.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -465,6 +615,7 @@
 		};
 		80CA7D1122673186002EEE51 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9001A9B70E4CCF054ECC8AA8 /* Pods-KkyuTalk.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -484,6 +635,7 @@
 		};
 		80CA7D1322673186002EEE51 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C80F399C4A7D0D4A887A1AAE /* Pods-KkyuTalkTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +656,7 @@
 		};
 		80CA7D1422673186002EEE51 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24EE6BC02EC764E05EB10A46 /* Pods-KkyuTalkTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -524,6 +677,7 @@
 		};
 		80CA7D1622673186002EEE51 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0BE1626208FD7A62962F100 /* Pods-KkyuTalkUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -543,6 +697,7 @@
 		};
 		80CA7D1722673186002EEE51 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DB5A5EEF295195FB02BE217 /* Pods-KkyuTalkUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

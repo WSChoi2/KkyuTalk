@@ -14,6 +14,9 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet var idField: UITextField!
     @IBOutlet var pwField: UITextField!
     
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -32,7 +35,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         if(sender.tag == 0){
             let storyboard: UIStoryboard = self.storyboard!
             let nextView = storyboard.instantiateViewController(withIdentifier: "SignUpViewController")
-            present(nextView, animated: true, completion: nil)
+            self.navigationController?.pushViewController(nextView, animated: true)
             
         }
         //SIGN IN(로그인)
@@ -40,7 +43,13 @@ class ViewController: UIViewController, UITextFieldDelegate {
             
             
         }
-        
+        //USER INFO(회원정보)
+        if(sender.tag == 2){
+            let storyboard: UIStoryboard = self.storyboard!
+            let nextView = storyboard.instantiateViewController(withIdentifier: "UserInfoViewController")
+            self.navigationController?.pushViewController(nextView, animated: true)
+            
+        }
     }
 }
 

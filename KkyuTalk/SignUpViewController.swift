@@ -5,7 +5,7 @@
 //  Created by 배규식 on 17/04/2019.
 //  Copyright © 2019 ksbae1214. All rights reserved.
 //
-
+import RealmSwift
 import UIKit
 
 class SignUpViewController: UIViewController, UITextFieldDelegate, UIPickerViewDataSource, UIPickerViewAccessibilityDelegate {
@@ -21,6 +21,7 @@ class SignUpViewController: UIViewController, UITextFieldDelegate, UIPickerViewD
     var userPassword : String?
     var userSex : String?
     var userBirth : String?
+    var realm : Realm!
     
     class userInfo {
         var id : String?
@@ -107,13 +108,25 @@ class SignUpViewController: UIViewController, UITextFieldDelegate, UIPickerViewD
         print("user BIRTH: \(userBirth!)")
         
     }
+    
+    func newUser() -> UserInfo? {
+        let inputUser = UserInfo(value: ["id": userId, "name": userName, "birth": userBirth, "sex": userSex, "password": userPassword])
+        return inputUser
+    }
+    
+    
     //가입하기
     @IBAction func signUp(_ sender: Any) {
         
-        
-        
-        let alert = UIAlertController(title: "알림", message: "현재 정보로 가입하시겠습니까?", preferredStyle: UIAlertController.Style.alert)
-        let okAction = UIAlertAction(title: "확인", style: UIAlertAction.Style.default, handler: {ACTION in self.saveInfo()})
+        let alert = UIAlertController(title: "알림", message: "현재 정보로 가입하시겠습니까?", preferredStyle: UIAlertController.Style.actionSheet)
+        let okAction = UIAlertAction(title: "확인",
+                                     style: UIAlertAction.Style.default,
+                                     handler: {
+                                        ACTION in
+                                        self.newUser()
+                                        self.navigationController?.popViewController(animated: true)
+                                        
+        })
         let cancelAction = UIAlertAction(title: "취소", style: UIAlertAction.Style.default, handler: nil)
             
         alert.addAction(okAction)
@@ -130,7 +143,7 @@ class SignUpViewController: UIViewController, UITextFieldDelegate, UIPickerViewD
         aa.birth = userBirth
         aa.sex = userSex
         aa.password = userPassword
-    
+        
     }
    
     /*
