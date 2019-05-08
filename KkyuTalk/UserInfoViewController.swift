@@ -6,54 +6,55 @@
 //  Copyright © 2019 ksbae1214. All rights reserved.
 //
 
-import UIKit
+//import UIKit
 import RealmSwift
 
 
 class UserInfoViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-    var list: Results<UserInfo>?
-    var realm : Realm!
-    var dataSource = Array<String>()
-    
+    var list: Results<Info>?
+    let realm = try? Realm()
+
     @IBOutlet var tableView: UITableView!
     
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        self.title = "회원 가입"
+        self.title = "회원 정보"
         
         tableView.delegate = self
         tableView.dataSource = self
         
-        setupRealm()
+        
+        // Realm 저장 위치 보여줌
+        print(Realm.Configuration.defaultConfiguration.fileURL!)
+        
+        //가져온 데이터를 리스트형태로 배치합니다. ID 오른차순으로 정렬합니다.
+        list = realm?.objects(Info.self).sorted(byKeyPath: "id", ascending: true)
+        self.tableView.reloadData()
         
     }
-    
-    func setupRealm(){
-        try! realm = Realm()
-        
-        func updateList(){
-            if list == nil{
-                list = self.realm.objects(UserInfo.self)
-            }
-            self.tableView.reloadData()
-        }
-        updateList()
-        
-    }
-    
-    
+   
+ 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return list!.count
+        if let count = list?.count{
+            return count
+        }else{
+            return 1
+        }
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let row = list![indexPath.row]
         let cell = tableView.dequeueReusableCell(withIdentifier: "UserInfoTableViewCell", for: indexPath) as! UserInfoTableViewCell
-        cell.idLabel.text = row.id
-        cell.nameLabel.text = row.name
+       // cell.idLabel.text = row.id
+       // cell.nameLabel.text = row.name
+        
+        if let db = list?[indexPath.row]{
+            cell.idLabel.text = db.id
+            cell.nameLabel.text = db.name
+            
+        }
         
         return cell
     }

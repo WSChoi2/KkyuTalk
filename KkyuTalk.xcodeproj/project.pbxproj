@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		804C09B722831F98009CE9BD /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804C09B622831F98009CE9BD /* Info.swift */; };
 		80CA7CEB22673184002EEE51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CA7CEA22673184002EEE51 /* AppDelegate.swift */; };
 		80CA7CED22673184002EEE51 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CA7CEC22673184002EEE51 /* ViewController.swift */; };
 		80CA7CF022673184002EEE51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80CA7CEE22673184002EEE51 /* Main.storyboard */; };
@@ -19,7 +20,6 @@
 		80CA7D1D2267656E002EEE51 /* CustomAccesoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80CA7D1C2267656E002EEE51 /* CustomAccesoryView.xib */; };
 		80CA7D1F22676656002EEE51 /* CustomAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CA7D1E22676656002EEE51 /* CustomAccessoryView.swift */; };
 		9FFF6AEAC1C87E4C681C5828 /* Pods_KkyuTalkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE6B3ECDF33BEF42B06E821D /* Pods_KkyuTalkTests.framework */; };
-		A3781CEF22806784004C1FCE /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3781CEE22806784004C1FCE /* UserInfo.swift */; };
 		A3781CF122806E53004C1FCE /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3781CF022806E53004C1FCE /* UserInfoViewController.swift */; };
 		A3781CF32280720B004C1FCE /* UserInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3781CF22280720B004C1FCE /* UserInfoTableViewCell.swift */; };
 		A759593E4E48EDB80BD3F0FA /* Pods_KkyuTalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D49188A294F53A8B74D59D /* Pods_KkyuTalk.framework */; };
@@ -47,6 +47,8 @@
 		0DB5A5EEF295195FB02BE217 /* Pods-KkyuTalkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KkyuTalkUITests.release.xcconfig"; path = "Target Support Files/Pods-KkyuTalkUITests/Pods-KkyuTalkUITests.release.xcconfig"; sourceTree = "<group>"; };
 		24EE6BC02EC764E05EB10A46 /* Pods-KkyuTalkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KkyuTalkTests.release.xcconfig"; path = "Target Support Files/Pods-KkyuTalkTests/Pods-KkyuTalkTests.release.xcconfig"; sourceTree = "<group>"; };
 		75D49188A294F53A8B74D59D /* Pods_KkyuTalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KkyuTalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		804C09B422830692009CE9BD /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		804C09B622831F98009CE9BD /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
 		80CA7CE722673184002EEE51 /* KkyuTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KkyuTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80CA7CEA22673184002EEE51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80CA7CEC22673184002EEE51 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,7 +68,6 @@
 		80CA7D1E22676656002EEE51 /* CustomAccessoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAccessoryView.swift; sourceTree = "<group>"; };
 		9001A9B70E4CCF054ECC8AA8 /* Pods-KkyuTalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KkyuTalk.release.xcconfig"; path = "Target Support Files/Pods-KkyuTalk/Pods-KkyuTalk.release.xcconfig"; sourceTree = "<group>"; };
 		A2583677A48B358B57785F6A /* Pods-KkyuTalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KkyuTalk.debug.xcconfig"; path = "Target Support Files/Pods-KkyuTalk/Pods-KkyuTalk.debug.xcconfig"; sourceTree = "<group>"; };
-		A3781CEE22806784004C1FCE /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
 		A3781CF022806E53004C1FCE /* UserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
 		A3781CF22280720B004C1FCE /* UserInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoTableViewCell.swift; sourceTree = "<group>"; };
 		AE6B3ECDF33BEF42B06E821D /* Pods_KkyuTalkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KkyuTalkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -147,7 +148,7 @@
 				80CA7D1C2267656E002EEE51 /* CustomAccesoryView.xib */,
 				80CA7D1E22676656002EEE51 /* CustomAccessoryView.swift */,
 				80CA7D1822673698002EEE51 /* SignUpViewController.swift */,
-				A3781CEE22806784004C1FCE /* UserInfo.swift */,
+				804C09B622831F98009CE9BD /* Info.swift */,
 				A3781CF022806E53004C1FCE /* UserInfoViewController.swift */,
 				A3781CF22280720B004C1FCE /* UserInfoTableViewCell.swift */,
 				80CA7CEE22673184002EEE51 /* Main.storyboard */,
@@ -179,6 +180,7 @@
 		B7617B7D7856F013D2DF5AF6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				804C09B422830692009CE9BD /* libsqlite3.0.tbd */,
 				75D49188A294F53A8B74D59D /* Pods_KkyuTalk.framework */,
 				AE6B3ECDF33BEF42B06E821D /* Pods_KkyuTalkTests.framework */,
 				E8BAF3CA882A77AB9CF494F5 /* Pods_KkyuTalkUITests.framework */,
@@ -416,12 +418,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				80CA7D1B226736AE002EEE51 /* SignInViewController.swift in Sources */,
+				804C09B722831F98009CE9BD /* Info.swift in Sources */,
 				A3781CF122806E53004C1FCE /* UserInfoViewController.swift in Sources */,
 				80CA7D1922673698002EEE51 /* SignUpViewController.swift in Sources */,
 				80CA7D1F22676656002EEE51 /* CustomAccessoryView.swift in Sources */,
 				A3781CF32280720B004C1FCE /* UserInfoTableViewCell.swift in Sources */,
 				80CA7CED22673184002EEE51 /* ViewController.swift in Sources */,
-				A3781CEF22806784004C1FCE /* UserInfo.swift in Sources */,
 				80CA7CEB22673184002EEE51 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -599,7 +601,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XV7W5BS524;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = KkyuTalk/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -619,7 +621,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XV7W5BS524;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = KkyuTalk/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (

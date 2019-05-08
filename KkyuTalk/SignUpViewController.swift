@@ -5,6 +5,8 @@
 //  Created by 배규식 on 17/04/2019.
 //  Copyright © 2019 ksbae1214. All rights reserved.
 //
+
+import Realm
 import RealmSwift
 import UIKit
 
@@ -21,16 +23,7 @@ class SignUpViewController: UIViewController, UITextFieldDelegate, UIPickerViewD
     var userPassword : String?
     var userSex : String?
     var userBirth : String?
-    var realm : Realm!
-    
-    class userInfo {
-        var id : String?
-        var name : String?
-        var password : String?
-        var sex : String?
-        var birth : String?
-    }
-    
+    let realm = try? Realm()
     
         override func viewDidLoad() {
             super.viewDidLoad()
@@ -109,9 +102,28 @@ class SignUpViewController: UIViewController, UITextFieldDelegate, UIPickerViewD
         
     }
     
-    func newUser() -> UserInfo? {
-        let inputUser = UserInfo(value: ["id": userId, "name": userName, "birth": userBirth, "sex": userSex, "password": userPassword])
-        return inputUser
+    
+
+    
+    
+    
+    func saveNewUser(){
+        let user = Info()
+        user.id = userId!
+        user.name = userName!
+        user.password = userPassword!
+        user.sex = userSex!
+        user.birth = userBirth!
+
+        let realm = try? Realm()
+
+        try? realm?.write {
+            realm?.add(user)
+            
+        }
+        
+        print("save INFO: \(user.id)")
+
     }
     
     
@@ -123,7 +135,7 @@ class SignUpViewController: UIViewController, UITextFieldDelegate, UIPickerViewD
                                      style: UIAlertAction.Style.default,
                                      handler: {
                                         ACTION in
-                                        self.newUser()
+                                        self.saveNewUser()
                                         self.navigationController?.popViewController(animated: true)
                                         
         })
@@ -136,15 +148,6 @@ class SignUpViewController: UIViewController, UITextFieldDelegate, UIPickerViewD
 
     }
     
-    func saveInfo() {
-        let aa = userInfo()
-        aa.id = userId
-        aa.name = userName
-        aa.birth = userBirth
-        aa.sex = userSex
-        aa.password = userPassword
-        
-    }
    
     /*
     // MARK: - Navigation
@@ -157,3 +160,5 @@ class SignUpViewController: UIViewController, UITextFieldDelegate, UIPickerViewD
     */
 
 }
+
+
