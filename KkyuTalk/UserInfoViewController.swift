@@ -58,6 +58,7 @@ class UserInfoViewController: UIViewController, UITableViewDelegate, UITableView
         
         return cell
     }
+    
 
 
     

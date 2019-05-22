@@ -8,6 +8,7 @@
 
 import Realm
 import RealmSwift
+import Alamofire
 import UIKit
 
 class SignUpViewController: UIViewController, UITextFieldDelegate, UIPickerViewDataSource, UIPickerViewAccessibilityDelegate {
@@ -18,9 +19,6 @@ class SignUpViewController: UIViewController, UITextFieldDelegate, UIPickerViewD
     @IBOutlet var nameField: UITextField!
     
     let values: [String] = ["남성","여성"]
-    var userId : String?
-    var userName : String?
-    var userPassword : String?
     var userSex : String?
     var userBirth : String?
     let realm = try? Realm()
@@ -48,24 +46,18 @@ class SignUpViewController: UIViewController, UITextFieldDelegate, UIPickerViewD
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {   //delegate method
         
         if(textField == idField){
-            userId = idField.text
-            print("user ID: \(userId!)")
             pwField.becomeFirstResponder()
         }
         if(textField == pwField){
-            userPassword = pwField.text
-            print("user PW: \(userPassword!)")
             nameField.becomeFirstResponder()
         }
-        
         if(textField == nameField){
-            userName = nameField.text
-            print("user NAME: \(userName!)")
             view.endEditing(true)
         }
         
         return true
     }
+    
     //화면 탭하면 키보드 내리기 함수
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?){
         
@@ -89,7 +81,6 @@ class SignUpViewController: UIViewController, UITextFieldDelegate, UIPickerViewD
     
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         userSex = values[row]
-        print("user SEX: \(userSex!)")
     }
     //데이트 피커
     @IBAction func pickerBirth(_ sender: UIDatePicker) {
@@ -98,31 +89,48 @@ class SignUpViewController: UIViewController, UITextFieldDelegate, UIPickerViewD
         formatter.dateFormat = "YYYY-MM-dd"
         
         userBirth = formatter.string(from: datePickerView.date)
-        print("user BIRTH: \(userBirth!)")
         
     }
     
-    
-
-    
-    
-    
     func saveNewUser(){
+        
+        /*
         let user = Info()
-        user.id = userId!
-        user.name = userName!
-        user.password = userPassword!
+        user.id = idField.text!
+        user.name = nameField.text!
+        user.password = pwField.text!
         user.sex = userSex!
         user.birth = userBirth!
-
         let realm = try? Realm()
 
         try? realm?.write {
             realm?.add(user)
+        }
+        print("save INFO: \(user.id)")
+        */
+        
+        
+        let url = "http://192.168.1.100:3000/users/register"
+        let id = idField.text!
+        let pw = pwField.text!
+        let profilePath = nameField.text!
+        let param: Parameters = ["id": id, "pw": pw, "profilePath": profilePath]
+        
+        let alamo = Alamofire.request(url, method: .post, parameters: param, encoding: URLEncoding.httpBody)
+        
+        print("회원정보 서버에 저장 id: \(idField.text!), pw: \(pwField.text!)")
+        
+        alamo.responseJSON() { response in
+            //print("RESULT JSON: \(response.result.value!)")
             
+            if let jsonObject = response.result.value as? [String: Any] {
+                print("result: \(jsonObject["result"]!)")
+                
+                
+            }
         }
         
-        print("save INFO: \(user.id)")
+        
 
     }
     

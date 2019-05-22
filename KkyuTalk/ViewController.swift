@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import Alamofire
 
 class ViewController: UIViewController, UITextFieldDelegate {
 
@@ -26,8 +26,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         
         idField.keyboardType = UIKeyboardType.emailAddress
         pwField.keyboardType = UIKeyboardType.emailAddress
-        
-        //커밋
+
     }
 
     @IBAction func buttonTouched(_ sender: UIButton) {
@@ -41,7 +40,34 @@ class ViewController: UIViewController, UITextFieldDelegate {
         //SIGN IN(로그인)
         if(sender.tag == 1){
             
+            let url = "http://192.168.1.100:3000/users/login"
+            let id = idField.text!
+            let pw = pwField.text!
+            var saveResult = String()
+            let param: Parameters = ["id": id, "pw": pw]
             
+            let alamo = Alamofire.request(url, method: .post, parameters: param, encoding: URLEncoding.httpBody)
+            
+            alamo.responseJSON() { response in
+                print("RESULT JSON: \(response.result.value!)")
+                
+                if let jsonObject = response.result.value as? [String: Any] {
+                    print("result: \(jsonObject["resultCode"]!)")
+                    saveResult = jsonObject["resultCode"]! as! String
+                    print("saveReqult: \(saveResult)")
+                }
+                
+                //로그인 성공이라면
+                if "001" == saveResult {
+                    print("로그인 성공")
+                    let storyboard: UIStoryboard = self.storyboard!
+                    let nextView = storyboard.instantiateViewController(withIdentifier: "SignUpViewController")
+                    self.navigationController?.pushViewController(nextView, animated: true)
+                }else{
+                    self.loginFail()
+                }
+                
+            }
         }
         //USER INFO(회원정보)
         if(sender.tag == 2){
@@ -51,5 +77,15 @@ class ViewController: UIViewController, UITextFieldDelegate {
             
         }
     }
+    
+    func loginFail(){
+        print("로그인 실패")
+        let alert = UIAlertController(title: "알림", message: "로그인에 실패하였습니다.\n회원정보를 다시 확인해주세요.", preferredStyle: UIAlertController.Style.alert)
+        let okAction = UIAlertAction(title: "확인", style: UIAlertAction.Style.default, handler: nil)
+        
+        alert.addAction(okAction)
+        self.present(alert, animated: true, completion: nil)
+    }
+    
 }
 
