@@ -14,7 +14,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet var idField: UITextField!
     @IBOutlet var pwField: UITextField!
     
-    
+    var resultCode: String?
+    var resultMsg: String?
     
     
     override func viewDidLoad() {
@@ -40,34 +41,38 @@ class ViewController: UIViewController, UITextFieldDelegate {
         //SIGN IN(로그인)
         if(sender.tag == 1){
             
-            let url = "http://192.168.1.100:3000/users/login"
             let id = idField.text!
             let pw = pwField.text!
-            var saveResult = String()
+            
+            let url = "http://192.168.0.175:3000/users/login"
             let param: Parameters = ["id": id, "pw": pw]
-            
             let alamo = Alamofire.request(url, method: .post, parameters: param, encoding: URLEncoding.httpBody)
-            
             alamo.responseJSON() { response in
-                print("RESULT JSON: \(response.result.value!)")
                 
-                if let jsonObject = response.result.value as? [String: Any] {
-                    print("result: \(jsonObject["resultCode"]!)")
-                    saveResult = jsonObject["resultCode"]! as! String
-                    print("saveReqult: \(saveResult)")
+                guard let json = response.result.value as? [String: Any],
+                        let result = json["result"] as? [String: Any],
+                        let code = result["resultCode"] as? String,
+                        let msg = result["resultMsg"] as? String else {
+                            
+                            print("Failed to parse JSON")
+                            return
                 }
+                self.resultCode = code
+                self.resultMsg = msg
                 
-                //로그인 성공이라면
-                if "001" == saveResult {
+                print("응답코드: \(self.resultCode), 응답메시지: \(self.resultMsg)")
+                
+                    
+                if "001" == self.resultCode {
                     print("로그인 성공")
                     let storyboard: UIStoryboard = self.storyboard!
-                    let nextView = storyboard.instantiateViewController(withIdentifier: "SignUpViewController")
+                    let nextView = storyboard.instantiateViewController(withIdentifier: "SignInViewController")
                     self.navigationController?.pushViewController(nextView, animated: true)
                 }else{
                     self.loginFail()
                 }
-                
             }
+
         }
         //USER INFO(회원정보)
         if(sender.tag == 2){

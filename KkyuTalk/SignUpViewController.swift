@@ -39,7 +39,7 @@ class SignUpViewController: UIViewController, UITextFieldDelegate, UIPickerViewD
             pwField.returnKeyType = .done
             nameField.returnKeyType = .done
             
-        
+
     }
     
     //키보드 완료 함수
@@ -110,7 +110,7 @@ class SignUpViewController: UIViewController, UITextFieldDelegate, UIPickerViewD
         */
         
         
-        let url = "http://192.168.1.100:3000/users/register"
+        let url = "http://192.168.0.175:3000/users/register"
         let id = idField.text!
         let pw = pwField.text!
         let profilePath = nameField.text!

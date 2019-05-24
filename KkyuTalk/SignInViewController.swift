@@ -9,6 +9,10 @@
 import UIKit
 
 class SignInViewController: UIViewController {
+    
+    var resultCode: String?
+    var resultMsg: String?
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
