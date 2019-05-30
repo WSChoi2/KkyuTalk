@@ -40,7 +40,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         }
         //SIGN IN(로그인)
         if(sender.tag == 1){
-            
+            //test
             let id = idField.text!
             let pw = pwField.text!
             
